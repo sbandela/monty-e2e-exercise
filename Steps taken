@@ -11,6 +11,8 @@ Tried adding  /usr/local/bin in the $PATH by taking the following steps from the
        export PATH="/usr/local/bin:$PATH"
        echo $PATH returned /usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
        Still getting "command not found".So I'm stuck and couldn't proceed further
+So I manually downloaded the selenium standalone server 3.0 jar file from http://selenium-release.storage.googleapis.com/index.html
+and manually installed geckodriver-v0.11.1-macos.tar.gz from https://github.com/mozilla/geckodriver/releases/tag/v0.11.1
        
  I already have node and npm installed
  node - v6.10.1
