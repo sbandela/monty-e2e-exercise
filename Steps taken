@@ -1,0 +1,8 @@
+Cloned the project monty-e2e-exercise to my local github account
+
+Tried to download selenium standalone server and geckodriver from terminal
+$ curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
+AND
+$ curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-macos.tar.gz | tar xz
+
+I could not download the selenium standlo
