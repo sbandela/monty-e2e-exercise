@@ -13,6 +13,16 @@ Tried adding  /usr/local/bin in the $PATH by taking the following steps from the
        Still getting "command not found".So I'm stuck and couldn't proceed further
 So I manually downloaded the selenium standalone server 3.0 jar file from http://selenium-release.storage.googleapis.com/index.html
 and manually installed geckodriver-v0.11.1-macos.tar.gz from https://github.com/mozilla/geckodriver/releases/tag/v0.11.1
+
+Also I alternatively downloaded selenium standalone via - 
+
+    npm install selenium-standalone@latest -g
+    selenium-standalone install
+    selenium-standalone start
+    
+  However was getting the below error     
+ Error: Selenium server did not start.
+ Another Selenium process may already be running or your java version may be out of date.
        
  I already have node and npm installed
  node - v6.10.1
