@@ -5,4 +5,13 @@ $ curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-sta
 AND
 $ curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-macos.tar.gz | tar xz
 
-I could not download the selenium standlo
+I could not download the selenium standalone server and geckodriver since I was getting command not found on terminal.
+Tried adding  /usr/local/bin in the $PATH by taking the following steps from the home directory
+       nano .bash_profile
+       export PATH="/usr/local/bin:$PATH"
+       echo $PATH returned /usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+       Still getting "command not found".So I'm stuck and couldn't proceed further
+       
+ I already have node and npm installed
+ node - v6.10.1
+ npm - 3.10.10
